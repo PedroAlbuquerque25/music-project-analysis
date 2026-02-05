@@ -1,35 +1,48 @@
-# Music Project Analysis
+# 🎵 Music Project Analysis (Tripleten)
 
-This project analyzes music streaming data to compare user preferences between Springfield and Shelbyville, testing hypotheses about user activity based on day of the week and city.
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
 
-## Objective
-Test the hypothesis that user activity differs depending on the day of the week and the city.
+## 📝 Descrição do Projeto
+Este projeto analisa dados de streaming de música para comparar as preferências dos usuários entre as cidades de **Springfield** e **Shelbyville**. O foco principal é testar hipóteses sobre o comportamento do público e como a atividade varia de acordo com o dia da semana e a localização geográfica.
 
-## Data
-The data is stored in `/datasets/music_project_en.csv` (not included in this repo).
+Este trabalho faz parte da trilha de análise de dados da **Tripleten**.
 
-## Requirements
-- Python 3.x
-- pandas
-- (Add other libraries used)
+---
 
-Install dependencies:
-```
-pip install -r requirements.txt
-```
+## 🎯 Objetivos e Hipóteses
+O objetivo central é validar três hipóteses principais:
+1. A atividade dos usuários varia de acordo com o dia da semana e a cidade.
+2. Nas manhãs de segunda-feira, os habitantes de Springfield e Shelbyville escutam gêneros diferentes.
+3. Os ouvintes de Springfield e Shelbyville têm preferências musicais distintas (Pop em uma, Rock na outra, por exemplo).
 
-## How to Run
-Open the `music-project.ipynb` notebook in Jupyter and execute the cells.
+---
 
-## Conclusions
-- User activity in Springfield is higher on Mondays and Fridays.
-- In Shelbyville, Wednesday shows higher activity compared to Monday and Friday, possibly due to weather or events.
+## 📊 Conclusões dos Insights
+* **Padrões de Atividade:** Em Springfield, a atividade é maior às segundas e sextas-feiras. Já em Shelbyville, o pico ocorre nas quartas-feiras.
+* **Consistência:** Apesar das diferenças de volume, o comportamento geral de consumo mostra que as cidades reagem de forma distinta aos dias úteis.
 
-## Improvements Suggestions
-- Add data visualizations using matplotlib or seaborn.
-- Modularize code into functions for better reusability.
-- Add unit tests for data processing functions.
-- Translate comments and documentation to English for broader accessibility.
-- Include the dataset or a sample dataset.
-- Add error handling and logging.
-- Use environment variables for file paths.
+---
+
+## 🛠️ Tecnologias e Bibliotecas
+- **Linguagem:** Python 3.13.5
+- **Bibliotecas:** `pandas` para manipulação de dados.
+- **Ambiente:** Jupyter Notebook (VS Code).
+
+---
+
+## 📂 Estrutura do Repositório
+* `notebooks/`: Contém o arquivo principal `music-project.ipynb`.
+* `requirements.txt`: Lista de dependências (Pandas).
+* `.gitignore`: Configuração para ignorar arquivos temporários do sistema.
+* `README.md`: Documentação do projeto.
+
+> **Nota:** O conjunto de dados original (`/datasets/music_project_en.csv`) não está incluído neste repositório por questões de privacidade/licença.
+
+---
+
+## 🚀 Como Executar
+1. Clone o repositório.
+2. Instale as dependências:
+   ```bash
+   pip install -r requirements.txt
