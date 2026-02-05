@@ -46,3 +46,10 @@ O objetivo central é validar três hipóteses principais:
 2. Instale as dependências:
    ```bash
    pip install -r requirements.txt
+
+---
+
+## 🤝 Contato
+Desenvolvido por **Seu Nome**
+
+[Clique aqui para acessar meu LinkedIn](https://www.linkedin.com/in/phaa/)
